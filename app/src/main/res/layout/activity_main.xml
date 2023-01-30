@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center"
+
+    tools:context=".MainActivity">
+
+<TextView
+    android:id="@+id/tvTimer"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="60"
+    android:textSize="30sp"
+    android:textStyle="bold"
+    />
+    <Button
+        android:id="@+id/btn_start"
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content"
+        android:text="START"
+        android:textSize="25sp"
+        android:textColor="@color/black"
+        android:backgroundTint="@color/grey"
+        />
+    <Button
+        android:id="@+id/btn_Pause"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="PAUSE"
+        android:textSize="25sp"
+        android:textColor="@color/black"
+        android:backgroundTint="@color/grey"
+        />
+    <Button
+        android:id="@+id/btn_Reset"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="RESET"
+        android:textSize="25sp"
+        android:textColor="@color/black"
+        android:backgroundTint="@color/grey"
+        />
+
+
+
+</LinearLayout>
